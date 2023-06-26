@@ -1,0 +1,16 @@
+Answer the following question given the paper title. Answer "Unanswerable" when not enough information is provided in the paper's content. Answer only "Yes" or "No" in boolean questions.
+
+question: How big is the evaluated dataset in the paper "Drug-drug Interaction Extraction via Recurrent Neural Network with Multiple Attention Layers"?
+answer: contains thousands of XML files, each of which are constructed by several records
+
+question: Is the method described in this work a clustering-based method in the paper "Word Sense Disambiguation for 158 Languages using Word Embeddings Only"?
+answer: Yes
+
+question: How does using NMT ensure generated reviews stay on topic in the paper "Stay On-Topic: Generating Context-specific Fake Restaurant Reviews"?
+answer: Unanswerable
+
+question: By how much do they outperform other models in the sentiment in intent classification tasks in the paper "Stacked DeBERT: All Attention in Incomplete Data for Text Classification"?
+answer: In the sentiment classification task by 6% to 8% and in the intent classification task by 0.94% on average
+
+question: {{question}}
+answer:

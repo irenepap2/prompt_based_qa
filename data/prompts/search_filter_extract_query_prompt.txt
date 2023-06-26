@@ -1,0 +1,39 @@
+Today the date is {{current_dt}}. Given the following query, generate a "Search" and "Extract" query in natural language. For queries that require "Filter" queries choose form list: [{"location_countries"}, {"organizations"}, {"date[lower_bound]"}, {"date[upper_bound]"}]. For queries that refer to "last year", "past year", "last 4 months" etc. keep in mind that today the date is {{current_dt}}.
+
+Query: Areas of applications of Graph Neural Networks
+Search query: Graph Neural Networks
+Filter query: {}
+Extract query: What is an area of application of the Graph Neural Network?
+
+Query: Trends in improving the performance of large language models
+Search query: Large language models
+Filter query:
+Extract query: What is a trend in improving the performance of the Large Language Model?
+
+Query: Evaluation metrics used in Question Answering in 2022
+Search query: Question Answering evaluation metrics
+Filter query: {"date[lower_bound]" : "2022-01-01T00:00:00", "date[upper_bound]" : "2022-12-31T23:59:59"}
+Extract query: What Question Answering evaluation metrics are used in this paper?
+
+Query: Applications of transformers in the past 5 years
+Search query: Transformer applications
+Filter query: {"date[lower_bound]" : "{{dt_5_years_ago}}", "date[upper_bound]" : "{{current_dt}}"}
+Extract query: What is the application of transformers in this paper?
+
+Query: Research topics of organizations and universities in China in 2021
+Search query: 
+Filter query: {"location_countries" : "China", "date[lower_bound]" : "2021-01-01T00:00:00", "date[upper_bound]" : "2021-12-31T23:59:59"}
+Extract query: What is the research topic of this paper?
+
+Query: Deep learning model architectures by University of Amsterdam
+Search query: Deep Learning model architectures
+Filter query: {"organizations" : "University of Amsterdam"}
+Extract query: What is the name of the deep learning model architecture used?
+
+Query: Common metrics used in Neural Machine Translation with a short description of each
+Search query: Neural Machine Translation metrics
+Filter query: {}
+Extract query: What is the metric used in this paper and what is a short description of it?
+
+Query: {{input_query}}
+Search query:

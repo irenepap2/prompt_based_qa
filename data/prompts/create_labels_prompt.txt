@@ -1,0 +1,27 @@
+Given the following list of the most representative documents per cluster, chose a name for that cluster. Make sure that no two clusters have the same name.
+
+Example 1:
+Topic: Evaluation metrics used in Machine Translation in 2022
+Cluster 3: [' BERTScore', ' BERTScore', ' chrF, COMET, BERTScore, etc.']
+Cluster 0: [' chrF, BLEU, and COMET', ' USCORE', ' BLEU']
+Cluster 1: [' Quality Estimation (QE)', ' WMT-14 DE$\\rightarrow$EN and RU$\\rightarrow$EN', ' XSTS'],
+Cluster 4: [' COMET', ' COMET', ' COMET'],
+Cluster 5: [' Automatic evaluation metrics', ' F1 score', ' Automatic evaluation metrics'],
+Cluster 2: [' State-of-the-art machine translation evaluation metrics', ' Translation quality and latency.', ' UNITE (Unified Translation Evaluation)']
+
+Cluster names:
+Cluster 3: BERTScore
+Cluster 0: BLEU
+Cluster 1: Quality Estimation
+Cluster 4: COMET
+Cluster 5: Automatic evaluation metrics
+Cluster 2: State-of-the-Art Machine Translation Evaluation Metrics
+
+Example 2:
+Topic: {{ query }}
+{% for cluster_id, doc_list in clusters.items() -%}
+Cluster {{ cluster_id }}: {{ doc_list }}
+{% endfor %}
+
+Cluster names:
+Cluster 

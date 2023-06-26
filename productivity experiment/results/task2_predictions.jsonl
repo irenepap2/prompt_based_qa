@@ -1,0 +1,48 @@
+{"question_id": "4137a82d7752be7a6c142ceb48ce784fd475fb06", "predicted_answer": "Weka baseline", "predicted_evidence": []}
+{"question_id": "7fba61426737394304e307cdc7537225f6253150", "predicted_answer": "Unanswerable", "predicted_evidence": []}
+{"question_id": "90829d5fde4f5f0ffc184c5e8fc64c8ac5ece521", "predicted_answer": "Bing Liu's Dataset", "predicted_evidence": []}
+{"question_id": "f7ee48dd32c666ef83a4ae4aa06bcde85dd8ec4b", "predicted_answer": "Hybrid \u00e2\u20ac\u201c the current state-of-the-art", "predicted_evidence": []}
+{"question_id": "0ac6fbd81e2dd95b800283dc7e59ce969d45fc02", "predicted_answer": "The training, validation and test datasets provided for the shared task BIBREF5", "predicted_evidence": []}
+{"question_id": "d36a6447bfe58204e0d29f9213d84be04d875624", "predicted_answer": "Data set A and Data set B", "predicted_evidence": []}
+{"question_id": "1237b6fcc64b43901415f3ded17cc210a54ab698", "predicted_answer": "113 GB", "predicted_evidence": []}
+{"question_id": "4748a50c96acb1aa03f7efd1b43376c193b2450a", "predicted_answer": "Bing Liu's dataset", "predicted_evidence": []}
+{"question_id": "0fe49431db5ffaa24372919daf24d8f84117bfda", "predicted_answer": "DUC 2002 document summarization corpus and DailyMail news highlights corpus", "predicted_evidence": []}
+{"question_id": "3c414f7fbf577dfd3363be6bbc9eba8bdd01f45f", "predicted_answer": "The dataset was crawled from the Douban forum, containing 3 million utterances and approximately 150,000 unique words (Chinese terms).", "predicted_evidence": []}
+{"question_id": "9489b0ecb643c1fc95c001c65d4e9771315989aa", "predicted_answer": "The English portion of CoNLL 2012 data", "predicted_evidence": []}
+{"question_id": "a836ab8eb5a72af4b0a0c83bf42a2a14d1b38763", "predicted_answer": "Manually-curated dataset of publicly disclosed vulnerabilities in 205 distinct open-source Java projects mapped to commits fixing them", "predicted_evidence": []}
+{"question_id": "1ecbbb60dc44a701e9c57c22167dd412711bb0be", "predicted_answer": "Clueweb09 derived dataset and Wikipedia crawl data", "predicted_evidence": []}
+{"question_id": "00e4c9aa87411dfc5455fc92f10e5c9266e7b95e", "predicted_answer": "U.S. Census Bureau conducted Annual Retail Trade Survey of U.S. Retail and Food Services Firms for the period of 1992 to 2013", "predicted_evidence": []}
+{"question_id": "8c46a26f9b0b41c656b5b55142d491600663defa", "predicted_answer": "GlobalPhone corpus, zrsc 2015, Buckeye corpus, NCHLT corpus, English wsj corpus", "predicted_evidence": []}
+{"question_id": "a398c9b061f28543bc77c2951d0dfc5d1bee9e87", "predicted_answer": "BIBREF4 crowdsourced the annotation of 19538 tweets they had curated", "predicted_evidence": []}
+{"question_id": "ebe1084a06abdabefffc66f029eeb0b69f114fd9", "predicted_answer": "a standard bidirectional RNN model with attention, a standard context-agnostic Transformer, and a recurrent baseline", "predicted_evidence": []}
+{"question_id": "eb653a5c59851eda313ece0bcd8c589b6155d73e", "predicted_answer": "a one-stage RNN system", "predicted_evidence": []}
+{"question_id": "634a071b13eb7139e77872ecfdc135a2eb2f89da", "predicted_answer": "Nearest neighbors (NN) Estimator, Naive Bayes (NB) Estimator and Recurrent neural network (RNN)", "predicted_evidence": []}
+{"question_id": "8cf52ba480d372fc15024b3db704952f10fdca27", "predicted_answer": "ESIM MODEL", "predicted_evidence": []}
+{"question_id": "3f717e6eceab0a066af65ddf782c1ebc502c28c0", "predicted_answer": "FIGER (GOLD) and BBN", "predicted_evidence": []}
+{"question_id": "420862798054f736128a6f0c4393c7f9cc648b40", "predicted_answer": "SICK (Sentences Involving Compositional Knowledge) dataset", "predicted_evidence": []}
+{"question_id": "bc6ad5964f444cf414b661a4b942dafb7640c564", "predicted_answer": "Open Minds Indoor Common Sense (OMICS)", "predicted_evidence": []}
+{"question_id": "f3b4e52ba962a0004064132d123fd9b78d9e12e2", "predicted_answer": "NIST OpenMT08 task, NIST 2006 (NIST06) dataset, NIST 2002 (NIST02), 2003 (NIST03), 2004 (NIST04) 2005 (NIST05), and 2008 (NIST08) datasets", "predicted_evidence": []}
+{"question_id": "50bda708293532f07a3193aaea0519d433fcc040", "predicted_answer": "cost measure that uses the confusion matrix of the prediction and prior knowledge", "predicted_evidence": []}
+{"question_id": "8908d1b865137bc309dde10a93735ec76037e5f9", "predicted_answer": "macro-average recall", "predicted_evidence": []}
+{"question_id": "301a453abaa3bc15976817fefce7a41f3b779907", "predicted_answer": "F-score for class 1 (ADR): INLINEFORM0, micro-averaged F-score of the class 1 (intake) and class 2 (possible intake): INLINEFORM0 INLINEFORM1, total score = INLINEFORM0", "predicted_evidence": []}
+{"question_id": "74a17eb3bf1d4f36e2db1459a342c529b9785f6e", "predicted_answer": "case-insensitive 4-gram BLEU score and faithfulness of translation results (scored 0-5)", "predicted_evidence": []}
+{"question_id": "4a91432abe3f54fcbdd00bb85dc0df95b16edf42", "predicted_answer": "85.4 million tweets", "predicted_evidence": []}
+{"question_id": "b1d255f181b18f7cf8eb3dd2369a082a2a398b7b", "predicted_answer": "29044", "predicted_evidence": []}
+{"question_id": "0b5c599195973c563c4b1a0fe5d8fc77204d71a0", "predicted_answer": "624 full text documents", "predicted_evidence": []}
+{"question_id": "80bb07e553449bde9ac0ff35fcc718d7c161f2d4", "predicted_answer": "23315 sentence pairs", "predicted_evidence": []}
+{"question_id": "bc7081aaa207de2362e0bea7bc8108d338aee36f", "predicted_answer": "No", "predicted_evidence": []}
+{"question_id": "693cdb9978749db04ba34d9c168e71534f00a226", "predicted_answer": "Yes", "predicted_evidence": []}
+{"question_id": "a17fc7b96753f85aee1d2036e2627570f4b50c30", "predicted_answer": "Yes", "predicted_evidence": []}
+{"question_id": "2f142cd11731d29d0c3fa426e26ef80d997862e0", "predicted_answer": "Yes", "predicted_evidence": []}
+{"question_id": "90aba75508aa145475d7cc9a501bbe987c0e8413", "predicted_answer": "Craigslist Bargaining dataset (CB)", "predicted_evidence": []}
+{"question_id": "47ffc9811b037613c9c4d1ec1e4f13c08396ed1c", "predicted_answer": "PDTB 2.0", "predicted_evidence": []}
+{"question_id": "3e23cc3c5e4d5cec51d158130d6aeae120e94fc8", "predicted_answer": "A dataset of 1,606,741 query-reply pairs and a dataset of human-human utterance pairs", "predicted_evidence": []}
+{"question_id": "f9ae1b31c1a60aacb9ef869e1cc6b0e70c6e5d8e", "predicted_answer": "Spanish, German, and Czech", "predicted_evidence": []}
+{"question_id": "77bbe1698e001c5889217be3164982ea36e85752", "predicted_answer": "BiLSTM-CNN proposed by BIBREF1", "predicted_evidence": []}
+{"question_id": "fe6181ab0aecf5bc8c3def843f82e530347d918b", "predicted_answer": "MLE model and Baseline$+(t)$ with $t \\in [0,1]$", "predicted_evidence": []}
+{"question_id": "8e113fd9661bc8af97e30c75a20712f01fc4520a", "predicted_answer": "ELMo, USE, NBSVM, FastText, XLnet base cased model (XLnet), BERT base cased (BERT-Cased) and BERT base uncased (BERT-Uncased) models, and RoBERTa base model", "predicted_evidence": []}
+{"question_id": "23cbf6ab365c1eb760b565d8ba51fb3f06257d62", "predicted_answer": "Seq2Seq MT models", "predicted_evidence": []}
+{"question_id": "e801b6a6048175d3b1f3440852386adb220bcb36", "predicted_answer": "12,284 English-language tweets and 6100 Arabic-language tweets", "predicted_evidence": []}
+{"question_id": "0a736e0e3305a50d771dfc059c7d94b8bd27032e", "predicted_answer": "5000 for each TV series", "predicted_evidence": []}
+{"question_id": "576a3ed6e4faa4c3893db632e97a52ac6e864aac", "predicted_answer": "5,124 sentences", "predicted_evidence": []}
+{"question_id": "16b816925567deb734049416c149747118e13963", "predicted_answer": "Unanswerable", "predicted_evidence": []}

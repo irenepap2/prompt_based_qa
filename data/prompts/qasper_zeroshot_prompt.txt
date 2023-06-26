@@ -1,0 +1,5 @@
+Answer the following question given the context. Answer "Unanswerable" when not enough information is provided in the context. Answer only "Yes" or "No" in boolean questions.
+
+context: {{context}}
+question: {{question}}
+answer:

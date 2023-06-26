@@ -1,0 +1,18 @@
+protobuf==3.19.6
+pyserini==0.19.1
+wandb
+tqdm >=4.62.1
+huggingface-hub<1.0.0,>=0.2.0
+datasets
+transformers
+coloredlogs==14.0
+jsonlines==3.1.0
+numpy==1.22.3
+openai
+pandas
+scikit_learn==1.2.0
+sentence_transformers==2.2.2
+tensorflow
+torch
+python-dotenv
+tabulate

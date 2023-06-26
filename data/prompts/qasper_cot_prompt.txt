@@ -1,0 +1,35 @@
+For each example, use the documents to create an "Answer" and an "Explanation" to the "Question". Answer "Unanswerable" when not enough information is provided in the documents. Pay attention to answer only "Yes" or "No" in boolean questions.
+
+Example 1:
+[Document 1]: The seed lexicon consists of positive and negative predicates. If the predicate of an extracted event is in the seed lexicon and does not involve complex phenomena like negation, we assign the corresponding polarity score ($+1$ for positive events and $-1$ for negative events) to the event. We expect the model to automatically learn complex phenomena through label propagation. Based on the availability of scores and the types of discourse relations, we classify the extracted event pairs into the following three types.
+[Document 2]: Although event pairs linked by discourse analysis are shown to be useful, they nevertheless contain noises. Adding linguistically-motivated filtering rules would help improve the performance.
+Question: What is the seed lexicon?
+Explanation: The seed lexicon is defined in [Document 1] as a vocabulary of positive and negative predicates. This lexicon is used to determine the polarity score of an event.
+Answer: a vocabulary of positive and negative predicates that helps determine the polarity score of an event
+
+Example 2:
+[Document 1]: Awe/Sublime (found it overwhelming/sense of greatness): Awe/Sublime implies being overwhelmed by the line/stanza, i.e., if one gets the impression of facing something sublime or if the line/stanza inspires one with awe (or that the expression itself is sublime). Such emotions are often associated with subjects like god, death, life, truth, etc. The term Sublime originated with kant2000critique as one of the first aesthetic emotion terms. Awe is a more common English term.
+Question: Does the paper report macro F1?
+Explanation: [Document 1] reports that the term "Sublime" originated with kant2000critique. This information is further supported by [Document 2], which reports that kant2000critique is a paper that discusses the macro F1 score.
+Answer: Yes
+
+Example 3:
+[Document 1]: In this section, we devote to experimentally evaluating our proposed task and approach. The best results in tables are in bold.
+Question: Are there privacy concerns with clinical data?
+Explanation: The question cannot be answered with the information provided in the document.
+Answer: Unanswerable
+
+Example 4:
+[Document 1]: Experimental results for the Twitter Sentiment Classification task on Kaggle's Sentiment140 Corpus dataset, displayed in Table TABREF37, show that our model has better F1-micros scores, outperforming the baseline models by 6$%$ to 8$%$. We evaluate our model and baseline models on three versions of the dataset. The first one (Inc) only considers the original data, containing naturally incorrect tweets, and achieves accuracy of 80$%$ against BERT's 72$%$. The second version (Corr) considers the corrected tweets, and shows higher accuracy given that it is less noisy. In that version, Stacked DeBERT achieves 82$%$ accuracy against BERT's 76$%$, an improvement of 6$%$. In the last case (Inc+Corr), we consider both incorrect and correct tweets as input to the models in hopes of improving performance. However, the accuracy was similar to the first aforementioned version, 80$%$ for our model and 74$%$ for the second highest performing model. Since the first and last corpus gave similar performances with our model, we conclude that the Twitter dataset does not require complete sentences to be given as training input, in addition to the original naturally incorrect tweets, in order to better model the noisy sentences.
+[Document 2]: The reconstructed hidden sentence embedding $h_{rec}$ is compared with the complete hidden sentence embedding $h_{comp}$ through a mean square error loss function, as shown in Eq. (DISPLAY_FORM7)
+[Document 3]: Experimental results for the Intent Classification task on the Chatbot NLU Corpus with STT error can be seen in Table TABREF40. When presented with data containing STT error, our model outperforms all baseline models in both combinations of TTS-STT: gtts-witai outperforms the second placing baseline model by 0.94% with F1-score of 97.17%, and macsay-witai outperforms the next highest achieving model by 1.89% with F1-score of 96.23%.
+Question: By how much do they outperform other models in the sentiment in intent classification tasks?
+Explanation: According to [Document 1], the model outperforms the baseline models by 6% to 8% in the sentiment classification task. This information is further supported by [Document 3], which states that the model outperforms the baseline models by 0.94% on average in the intent classification task.
+Answer: In the sentiment classification task by 6% to 8% and in the intent classification task by 0.94% on average
+
+Example 5:
+{% for con in context -%}
+[Document {{loop.index}}]: {{ con }}
+{% endfor -%}
+Question: {{question}}
+Explanation:

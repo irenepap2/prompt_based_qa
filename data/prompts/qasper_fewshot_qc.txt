@@ -1,0 +1,21 @@
+Answer the following question given the context. Answer "Unanswerable" when not enough information is provided in the context. Answer only "Yes" or "No" in boolean questions.
+
+question: How big is the evaluated dataset?
+context: The DDI corpus contains thousands of XML files, each of which are constructed by several records. For a sentence containing INLINEFORM0 drugs, there are INLINEFORM1 drug pairs. We replace the interested two drugs with \u201cdrug1\u201d and \u201cdrug2\u201d while the other drugs are replaced by \u201cdurg0\u201d, as in BIBREF9 did. This step is called drug blinding. For example, the sentence in figure FIGREF5 generates 3 instances after drug blinding: \u201cdrug1: an increased risk of hepatitis has been reported to result from combined use of drug2 and drug0\u201d, \u201cdrug1: an increased risk of hepatitis has been reported to result from combined use of drug0 and drug2\u201d, \u201cdrug0: an increased risk of hepatitis has been reported to result from combined use of drug1 and drug2\u201d. The drug blinded sentences are the instances that are fed to our model.
+answer: contains thousands of XML files, each of which are constructed by several records
+
+question: Is the method described in this work a clustering-based method?
+context: The task of Word Sense Induction (WSI) can be seen as an unsupervised version of WSD. WSI aims at clustering word senses and does not require to map each cluster to a predefined sense. Instead of that, word sense inventories are induced automatically from the clusters, treating each cluster as a single sense of a word. WSI approaches fall into three main groups: context clustering, word ego-network clustering and synonyms (or substitute) clustering. | We suggest a more advanced procedure of graph construction that uses the interpretability of vector addition and subtraction operations in word embedding space BIBREF6 while the previous algorithm only relies on the list of nearest neighbours in word embedding space. The key innovation of our algorithm is the use of vector subtraction to find pairs of most dissimilar graph nodes and construct the graph only from the nodes included in such \u201canti-edges\u201d.
+answer: Yes
+
+question: How does using NMT ensure generated reviews stay on topic?
+context: 
+answer: Unanswerable
+
+question: By how much do they outperform other models in the sentiment in intent classification tasks?
+context: Experimental results for the Twitter Sentiment Classification task on Kaggle's Sentiment140 Corpus dataset, displayed in Table TABREF37, show that our model has better F1-micros scores, outperforming the baseline models by 6$\\%$ to 8$\\%$. We evaluate our model and baseline models on three versions of the dataset. The first one (Inc) only considers the original data, containing naturally incorrect tweets, and achieves accuracy of 80$\\%$ against BERT's 72$\\%$. The second version (Corr) considers the corrected tweets, and shows higher accuracy given that it is less noisy. In that version, Stacked DeBERT achieves 82$\\%$ accuracy against BERT's 76$\\%$, an improvement of 6$\\%$. In the last case (Inc+Corr), we consider both incorrect and correct tweets as input to the models in hopes of improving performance. However, the accuracy was similar to the first aforementioned version, 80$\\%$ for our model and 74$\\%$ for the second highest performing model. Since the first and last corpus gave similar performances with our model, we conclude that the Twitter dataset does not require complete sentences to be given as training input, in addition to the original naturally incorrect tweets, in order to better model the noisy sentences. | Experimental results for the Intent Classification task on the Chatbot NLU Corpus with STT error can be seen in Table TABREF40. When presented with data containing STT error, our model outperforms all baseline models in both combinations of TTS-STT: gtts-witai outperforms the second placing baseline model by 0.94% with F1-score of 97.17%, and macsay-witai outperforms the next highest achieving model by 1.89% with F1-score of 96.23%.
+answer: In the sentiment classification task by 6% to 8% and in the intent classification task by 0.94% on average
+
+question: {{question}}
+context: {{context}}
+answer:
