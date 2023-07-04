@@ -17,6 +17,12 @@ Question-Answering systems typically generate answers in the form of sentences o
 <img src="images/productivity_exp_results.jpg" width='70%'>
 
 ## Replication
+Download dataset:
+```
+cd data/qasper
+wget https://qasper-dataset.s3.us-west-2.amazonaws.com/qasper-test-and-evaluator-v0.3.tgz
+tar -xf qasper-test-and-evaluator-v0.3.tgz
+```
 You can replicate all results on Qasper by running the following command:
 ```
 python generate_answers.py --model {MODEL_NAME} --retrieval_method {RETRIEVAL_NAME} --prompt_filename {PROMPT_NAME} --top_k_passages {TOP_K}
